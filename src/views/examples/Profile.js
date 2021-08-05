@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/myPic.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -108,15 +108,15 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
+                          <span className="heading">20</span>
                           <span className="description">Friends</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
+                          <span className="heading">3</span>
                           <span className="description">Photos</span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
+                          <span className="heading">0</span>
                           <span className="description">Comments</span>
                         </div>
                       </div>
@@ -124,20 +124,23 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Renad Al-Khlafat{" "}
+                      <span className="font-weight-light">, 23</span>
+                    </h3>
+                    <h3>
+                     {' <Renad/>'}{" "}
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Tafila, Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Software Developer Student 
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      ASAC - LTUC 
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
