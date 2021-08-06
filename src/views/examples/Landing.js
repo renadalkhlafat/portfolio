@@ -56,7 +56,7 @@ class Landing extends React.Component {
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
-              <div className="shape shape-style-1 shape-primary" style={{backgroundImage:'url(https://images.unsplash.com/photo-1615578843118-d3f321b541e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2052&q=80)',backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>
+              <div className="shape shape-style-4 shape-primary" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1615578843118-d3f321b541e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2052&q=80)', backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
                 <span />
                 <span />
                 <span />
@@ -71,7 +71,9 @@ class Landing extends React.Component {
                 <div className="col px-0">
                   <Row>
                     <Col lg="6">
-                      <p className="lead text-black">
+                      <p className="lead text-dark" style={{
+                        textShadow: "2px 0px  #ddd"
+                      }}>
                         " Each person has his own world in the field of programming and each person has a unique way of thinking and implementation, and I always strive to excel in my work and this is what encouraged me to enter the field of programming"
                       </p>
                     </Col>
@@ -105,32 +107,32 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0 mb-3">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-info rounded-circle mb-4">
+                          <div className="icon icon-shape icon-shape-info  rounded-circle mb-4">
                             <i className="ni ni-bus-front-12" />
                           </div>
-                          <h6 className="text-info text-uppercase">
+                          <h6 className="text-info  text-uppercase">
                             Bus Mall
                           </h6>
                           <p className="description mt-3">
-                            An applicatio do market analysis on proposed products to test their potential customer interest… before actually putting them into the catalog and getting the manufacturing wheels in motion.
+                          A website do market analysis on proposed products to test their potential customer interest… before actually putting them into the catalog and getting the manufacturing wheels in motion.
                           </p>
                           <div>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="info " pill className="mr-1">
                               Html5
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="info " pill className="mr-1">
                               CSS
                             </Badge>
-                            <Badge color="info" pill className="mr-1">
+                            <Badge color="info " pill className="mr-1">
                               JavaScript
                             </Badge>
                           </div>
                           <Button outline
                             className="mt-4"
-                            color="info"
+                            color="info "
                             href="https://bus-mall.netlify.app"
                             target="_blank"
-  
+
                           >
                             Take A look
 
@@ -141,14 +143,14 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0 mb-3">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-info rounded-circle mb-4">
+                          <div className="icon icon-shape icon-shape-info  rounded-circle mb-4">
                             <i className="fa fa-picture-o" />
                           </div>
                           <h6 className="text-info text-uppercase">
                             Horned Beasts
                           </h6>
                           <p className="description mt-3">
-                            An application that displays images and information of horned animals. This application allow you to filter the images by number of horns ,view specific images
+                          A website that displays images and information of horned animals. This application allow you to filter the images by number of horns ,view specific images
                             When you enters a character into the search field and chose your favorite image.
                           </p>
                           <div>
@@ -182,7 +184,7 @@ class Landing extends React.Component {
                             Cookie Stand
                           </h6>
                           <p className="description mt-3">
-                            An application that calculates the number of cookies each location must make every day and the daily sales projections for each location that there is a cookie stand cafe
+                            A website that calculates the number of cookies each location must make every day and the daily sales projections for each location that there is a cookie stand cafe
                           </p>
                           <div>
                             <Badge color="info" pill className="mr-1">
@@ -234,7 +236,7 @@ class Landing extends React.Component {
                             color="info"
                             href="https://vteam-201.github.io/PartHunt/"
                             target="_blank"
-                           
+
                           >
                             Take A look
                           </Button>
@@ -271,7 +273,7 @@ class Landing extends React.Component {
                             color="info"
                             href="#pablo"
                             target="_blank"
-                           
+
                           >
                             Take A look
                           </Button>
@@ -321,7 +323,7 @@ class Landing extends React.Component {
           </section>
           <section className="section bg-secondary">
             <Container>
-                      
+
             </Container>
           </section>
         </main>
