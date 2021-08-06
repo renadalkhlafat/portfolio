@@ -16,19 +16,6 @@
 
 */
 import React from "react";
-// nodejs library that concatenates classes
-import classnames from "classnames";
-import promo1 from "assets/img/theme/promo-1.png";
-import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
-import ill2 from "assets/img/ill/ill-2.svg";
-import team1 from "assets/img/theme/team-1-800x800.jpg";
-import part_hunt from "assets/img/theme/201-project(partHunt).png";
-import horned_beasts from "assets/img/theme/horned-beasts.png";
-import bus_mall from "assets/img/theme/Bus-mall.png";
-import cookie_stand from "assets/img/theme/cookie-stand.png";
-import team2 from "assets/img/theme/team-2-800x800.jpg";
-import team3 from "assets/img/theme/team-3-800x800.jpg";
-import team4 from "assets/img/theme/team-4-800x800.jpg";
 
 // reactstrap components
 import {
@@ -69,7 +56,7 @@ class Landing extends React.Component {
           <div className="position-relative">
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
-              <div className="shape shape-style-1 shape-default">
+              <div className="shape shape-style-1 shape-primary" style={{backgroundImage:'url(https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60)'}}>
                 <span />
                 <span />
                 <span />
@@ -141,8 +128,7 @@ class Landing extends React.Component {
                           <Button outline
                             className="mt-4"
                             color="info"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://bus-mall.netlify.app"  
                           >
                             Take A look
 
@@ -175,8 +161,7 @@ class Landing extends React.Component {
                           <Button outline
                             className="mt-4"
                             color="info"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://re-horned-beasts.netlify.app"
                           >
                             Take A look
 
@@ -210,8 +195,7 @@ class Landing extends React.Component {
                           <Button outline
                             className="mt-4"
                             color="info"
-                            href="#"
-                            onClick={e => e.preventDefault()}
+                            href="https://cookie-stand.netlify.app"
                           >
                             Take A look
                           </Button>
@@ -245,7 +229,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="info"
                             href="https://vteam-201.github.io/PartHunt/"
-                            onClick={e => e.preventDefault()}
+                           
                           >
                             Take A look
                           </Button>
@@ -281,7 +265,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="info"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                           
                           >
                             Take A look
                           </Button>
@@ -317,7 +301,7 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="info"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                          
                           >
                             Take A look
                           </Button>
@@ -331,142 +315,7 @@ class Landing extends React.Component {
           </section>
           <section className="section bg-secondary">
             <Container>
-              <Row className="row-grid align-items-center">
-                <Col md="6">
-                  <Card className="bg-default shadow border-0">
-                    <CardImg
-                      alt="..."
-                      src={part_hunt}
-                      top
-                    />
-                    <blockquote className="card-blockquote">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="svg-bg"
-                        preserveAspectRatio="none"
-                        viewBox="0 0 583 95"
-                      >
-                        <polygon
-                          className="fill-default"
-                          points="0,52 583,95 0,95"
-                        />
-                        <polygon
-                          className="fill-default"
-                          opacity=".2"
-                          points="0,42 583,95 683,0 0,95"
-                        />
-                      </svg>
-                      <h4 className="display-3 font-weight-bold text-white">
-                       PartHunt <small>201 project</small>
-                      </h4>
-                      <p className="lead text-italic text-white">
-                       
-                      </p>
-                    </blockquote>
-                  </Card>
-                  </Col>
-                  <Col md="6">
-                  <Card className="bg-default shadow border-0">
-                    <CardImg
-                      alt="..."
-                      src={horned_beasts}
-                      top
-                    />
-                    <blockquote className="card-blockquote">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="svg-bg"
-                        preserveAspectRatio="none"
-                        viewBox="0 0 583 95"
-                      >
-                        <polygon
-                          className="fill-default"
-                          points="0,52 583,95 0,95"
-                        />
-                        <polygon
-                          className="fill-default"
-                          opacity=".2"
-                          points="0,42 583,95 683,0 0,95"
-                        />
-                      </svg>
-                      <h4 className="display-3 font-weight-bold text-white">
-                        Horned Beasts
-                      </h4>
-                      <p className="lead text-italic text-white">
-                        The first project in 301 course  
-                      </p>
-                    </blockquote>
-                  </Card>
-                  </Col>
-              </Row>
-              <Row className="row-grid align-items-center">
-                <Col md="6">
-                  <Card className="bg-default shadow border-0">
-                    <CardImg
-                      alt="..."
-                      src={bus_mall}
-                      top
-                    />
-                    <blockquote className="card-blockquote">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="svg-bg"
-                        preserveAspectRatio="none"
-                        viewBox="0 0 583 95"
-                      >
-                        <polygon
-                          className="fill-default"
-                          points="0,52 583,95 0,95"
-                        />
-                        <polygon
-                          className="fill-default"
-                          opacity=".2"
-                          points="0,42 583,95 683,0 0,95"
-                        />
-                      </svg>
-                      <h4 className="display-3 font-weight-bold text-white">
-                      Bus Mall
-                      </h4>
-                      <p className="lead text-italic text-white">
-                       
-                      </p>
-                    </blockquote>
-                  </Card>
-                  </Col>
-                  <Col md="6">
-                  <Card className="bg-default shadow border-0">
-                    <CardImg
-                      alt="..."
-                      src={cookie_stand}
-                      top
-                    />
-                    <blockquote className="card-blockquote">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="svg-bg"
-                        preserveAspectRatio="none"
-                        viewBox="0 0 583 95"
-                      >
-                        <polygon
-                          className="fill-default"
-                          points="0,52 583,95 0,95"
-                        />
-                        <polygon
-                          className="fill-default"
-                          opacity=".2"
-                          points="0,42 583,95 683,0 0,95"
-                        />
-                      </svg>
-                      <h4 className="display-3 font-weight-bold text-white">
-                        Cookie Stand
-                      </h4>
-                      <p className="lead text-italic text-white">
                       
-                      </p>
-                    </blockquote>
-                  </Card>
-                  </Col>
-              </Row>
             </Container>
           </section>
         </main>

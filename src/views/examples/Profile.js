@@ -38,7 +38,7 @@ class Profile extends React.Component {
         <main className="profile-page" ref="main">
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
-            <div className="shape shape-style-1 shape-default alpha-4">
+            <div className="shape shape-style-1 shape-default alpha-4" style={{backgroundImage:"url(https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60)"}}>
               <span />
               <span />
               <span />
@@ -128,7 +128,7 @@ class Profile extends React.Component {
                       <span className="font-weight-light">, 23</span>
                     </h3>
                     <h3>
-                     {' <Renad/>'}{" "}
+                      {' <Renad/>'}{" "}
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
@@ -136,26 +136,21 @@ class Profile extends React.Component {
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Software Developer Student 
+                      Software Developer Student
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      ASAC - LTUC 
+                      ASAC - LTUC
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                          Am CIS graduate, I entered this field in my quest to always be distinguished and not to be like anyone in my thinking and this is what
+                          I found in the world of programming ,my first experience in programming was at Tawjihi level , I created a simple website for a fake travel and tourism company,
+                          I would like to pass on my experience to those interested in programming specially girls, I volunteered different organization that interested to teach programming languages .
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
-                          Show more
-                        </a>
                       </Col>
                     </Row>
                   </div>
