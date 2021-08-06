@@ -71,8 +71,10 @@ class Landing extends React.Component {
                 <div className="col px-0">
                   <Row>
                     <Col lg="6">
-                      <p className="lead text-dark" style={{
-                        textShadow: "2px 0px  #ddd"
+                      <p className="lead text-black" style={{
+                        textShadow: "2px 0px  #fff",fontWeight:'500',
+                        fontFamily:'Cursive,Lucida Handwriting'
+                        ,color:'black'
                       }}>
                         " Each person has his own world in the field of programming and each person has a unique way of thinking and implementation, and I always strive to excel in my work and this is what encouraged me to enter the field of programming"
                       </p>
