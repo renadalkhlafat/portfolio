@@ -25,7 +25,7 @@ import ill2 from "assets/img/ill/ill-2.svg";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 import profile from "assets/img/theme/myPic.jpg";
-
+import reactWhite from "assets/img/brand/Renad.png";
 class Profile extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;
@@ -152,27 +152,23 @@ class Profile extends React.Component {
           <section className="section pb-0 bg-gradient-info">
             <Container fluid>
               <Row >
-                <Col >
-                  <div className="pl-4">
-                    <h4 className="display-1 text-white">About Me </h4>
-                    <p style={{ color: '#000', fontSize: '18px', fontWeight: '500' }}>
+               
+               
+                </Row>
+                <Row>
+                  <Col>
+                  <Card className="shadow shadow-lg--hover mt-5 mb-6" >
+                  <CardBody>
+                    <div className=" px-3">
+                      <div>
+                      <h4 className="display-1 text-black">About Me </h4>
+                    <p className=" text-black">
                       Am a CIS graduate, I entered this field in my quest to always be distinguished and not to be like anyone in my thinking and this is what I found in the world of programming ,my first experience in programming was at Tawjihi level , I created a simple website for a fake travel and tourism company, I would like to pass on my experience to those interested in programming specially girls, I volunteered different organization that interested to teach programming languages .
                     </p>
-                  </div>
-
-
-
-                </Col>
-                <Col></Col>
-                <Col><Card className="shadow shadow-lg--hover mt-5 mb-6" >
-                  <CardBody>
-                    <div className="d-flex px-3">
-                      <div>
-                        <div className="icon icon-shape bg-gradient-info rounded-circle text-white">
-                          <i className="ni ni-satisfied" />
-                        </div>
+                        
                       </div>
                       <div className="pl-4">
+                      
                         <h5 className="title text-info">
                           My Skills
                         </h5>
@@ -186,21 +182,29 @@ class Profile extends React.Component {
                             <li> Bootstrap</li>
                           </ul>
                         </p>
-                        <a
-                          className="text-info"
+                        <Button
+                          className="info text-info"
                           href="https://drive.google.com/file/d/1EsFmwUmbLoACgqoD3dQVFzAw7bVHRLUg/view?usp=sharing"
                           target="_blank"
                         >
                           Resume
-                        </a>
+                        </Button>
                       </div>
                     </div>
                   </CardBody>
-                </Card>       
-                  </Col>
-                  <Col></Col>
+                </Card> </Col>
+                <Col className="order-lg-2 ml-lg-auto" md="6">
+                  <div className="position-relative pl-md-5">
+                    <img
+                      alt="..."
+                      className="img-center img-fluid"
+                      src={ill2}
+                    />
+                  </div>
+                </Col>
+                  </Row>  
                 
-              </Row>
+             
             </Container>
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
