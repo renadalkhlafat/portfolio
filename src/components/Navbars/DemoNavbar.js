@@ -115,7 +115,7 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Menu</span>
+                      <span className="nav-link-inner--text" style={{color:"black"}}>Menu</span>
                     </DropdownToggle>
                     <DropdownMenu>
                       <DropdownItem to="/profile-page" tag={Link}>
@@ -139,7 +139,7 @@ class DemoNavbar extends React.Component {
                       target="_blank"
                     >
                       <i className="fa fa-facebook-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
+                      <span className="nav-link-inner--text d-lg-none ml-2" >
                         Facebook
                       </span>
                     </NavLink>
