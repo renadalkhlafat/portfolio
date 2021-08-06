@@ -38,7 +38,7 @@ class Profile extends React.Component {
         <main className="profile-page" ref="main">
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
-            <div className="shape shape-style-1 shape-default alpha-4"  style={{backgroundImage:'url(https://images.unsplash.com/photo-1615578843118-d3f321b541e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2052&q=80)',backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>
+            <div className="shape shape-style-4 shape-default alpha-4"  style={{backgroundImage:'url(https://images.unsplash.com/photo-1615578843118-d3f321b541e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2052&q=80)',backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>
               <span />
               <span />
               <span />
