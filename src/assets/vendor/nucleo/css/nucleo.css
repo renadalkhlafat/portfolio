@@ -11,6 +11,13 @@ License - nucleoapp.com/license/
   font-weight: normal;
   font-style: normal;
 }
+.switch-wrapper {
+    position: relative;
+  }
+  
+  .switch-wrapper > div {
+    position: relative;
+  }
 /*------------------------
     base class definition
 -------------------------*/
