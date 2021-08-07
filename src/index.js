@@ -49,7 +49,7 @@ ReactDOM.render(
         
         render={props => <Index {...props} />}
       />
-      <Redirect to="/" />
+      {/* <Redirect to="/" /> */}
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
