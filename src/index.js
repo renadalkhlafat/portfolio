@@ -78,21 +78,22 @@ ReactDOM.render(
     >
       <Route path="/" exact render={props =><Profile {...props} /> } />
       <Route
-        path="/landing-page"
+        path="/portfolio-page"
         
         render={props => <Landing {...props} />}
       />
       <Route path="/login-page"  render={props => <Login {...props} />} />
       <Route
-        path="/profile-page"
+        path="/how-to"
         
-        render={props => <Profile {...props}  /> }
+        render={props => <Index {...props} /> }
       />
-      <Route
+      {/* <Route
         path="/register-page"
         
         render={props => <Index {...props} />}
-      />
+      /> */}
+    
       <Redirect to="/" />
     </AnimatedSwitch>
   </BrowserRouter>,

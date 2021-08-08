@@ -44,7 +44,7 @@ class CardsFooter extends React.Component {
             <Row>
               <Col className="mb-5 mb-md-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
-                  <Link to="/landing-page">
+                  <Link to="/portfolio-page">
                     <CardImg
                       alt="..."
                       src={landing}
